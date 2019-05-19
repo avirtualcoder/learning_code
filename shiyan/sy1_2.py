@@ -1,0 +1,5 @@
+test=input('输入一个列表和切片下标： ')
+str_all=test.split(' ')
+str_ls=list(str_all[0].strip('['']').split(','))
+str_index=str_all[1].split(',')
+print(str_ls[int(str_index[0]):int(str_index[1])])
